@@ -1,0 +1,2071 @@
+[
+  {
+    "repo": "mui/mui-x",
+    "number": 23941,
+    "title": "[data grid] Close the singleSelect editor menu on a backdrop click or Escape",
+    "url": "https://github.com/mui/mui-x/pull/23941",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "you",
+    "since": "2026-10-20T04:59:50Z",
+    "lastActivity": "2026-10-25T16:11:03Z",
+    "reasons": [
+      {
+        "code": "ci_failed",
+        "text": "CI failed on your head commit: deploy/netlify",
+        "at": "2026-10-20T04:59:50Z",
+        "url": "https://github.com/mui/mui-x/pull/23941/checks"
+      }
+    ],
+    "notes": [
+      {
+        "code": "maintainer_check",
+        "text": "a failed check only a maintainer can clear: check PR labels / Check PR type labels",
+        "at": "2026-10-20T04:59:50Z",
+        "url": "https://github.com/mui/mui-x/pull/23941/checks"
+      }
+    ]
+  },
+  {
+    "repo": "jupyter/nbconvert",
+    "number": 2333,
+    "title": "Keep cells IPython cannot tokenize when exporting to a script",
+    "url": "https://github.com/jupyter/nbconvert/pull/2333",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "you",
+    "since": "2026-10-21T03:53:25Z",
+    "lastActivity": "2026-10-25T07:07:31Z",
+    "reasons": [
+      {
+        "code": "ci_failed",
+        "text": "CI failed on your head commit: generate-docs (3.14)",
+        "at": "2026-10-21T03:53:25Z",
+        "url": "https://github.com/jupyter/nbconvert/pull/2333/checks"
+      }
+    ],
+    "notes": [
+      {
+        "code": "maintainer_check",
+        "text": "a failed check only a maintainer can clear: enforce-label",
+        "at": "2026-10-21T03:53:25Z",
+        "url": "https://github.com/jupyter/nbconvert/pull/2333/checks"
+      },
+      {
+        "code": "ci_flaky",
+        "text": "some recent pull requests by others fail this too, so it may be flaky: generate-docs (3.14) (1 of 8)",
+        "url": "https://github.com/jupyter/nbconvert/pull/2333/checks"
+      }
+    ]
+  },
+  {
+    "repo": "microsoft/rushstack",
+    "number": 6162,
+    "title": "[rush-serve-plugin] Forward the auto-picked port to the port parameter",
+    "url": "https://github.com/microsoft/rushstack/pull/6162",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "you",
+    "since": "2026-10-21T04:20:08Z",
+    "lastActivity": "2026-10-25T16:11:05Z",
+    "reasons": [
+      {
+        "code": "ci_failed",
+        "text": "CI failed on your head commit: Node.js v26 (ubuntu-latest), Node.js v26 (windows-latest)",
+        "at": "2026-10-21T04:20:08Z",
+        "url": "https://github.com/microsoft/rushstack/pull/6162/checks"
+      }
+    ],
+    "notes": [
+      {
+        "code": "review_requested",
+        "text": "review requested from @iclanton, @octogonz, @apostolisms (+3 more) 6d ago",
+        "at": "2026-10-21T04:20:06Z",
+        "url": "https://github.com/microsoft/rushstack/pull/6162"
+      },
+      {
+        "code": "ci_failed_on_base",
+        "text": "also failing on main, so probably not your change: Node.js v24 (windows-latest)",
+        "url": "https://github.com/microsoft/rushstack/pull/6162/checks"
+      },
+      {
+        "code": "ci_flaky",
+        "text": "some recent pull requests by others fail this too, so it may be flaky: Node.js v26 (windows-latest) (1 of 7)",
+        "url": "https://github.com/microsoft/rushstack/pull/6162/checks"
+      }
+    ]
+  },
+  {
+    "repo": "gorakhargosh/watchdog",
+    "number": 1341,
+    "title": "fix(core): hold the observer lock while starting emitters",
+    "url": "https://github.com/gorakhargosh/watchdog/pull/1341",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "you",
+    "since": "2026-10-23T02:42:57Z",
+    "lastActivity": "2026-10-23T02:42:57Z",
+    "reasons": [
+      {
+        "code": "conflict",
+        "text": "merge conflict with master",
+        "url": "https://github.com/gorakhargosh/watchdog/pull/1341"
+      }
+    ],
+    "notes": [
+      {
+        "code": "awaiting_approval",
+        "text": "2 workflows wait for a maintainer to approve their runs: Tests, Build & Publish",
+        "at": "2026-10-23T02:42:57Z",
+        "url": "https://github.com/gorakhargosh/watchdog/pull/1341/checks"
+      }
+    ]
+  },
+  {
+    "repo": "redis-rs/redis-rs",
+    "number": 2514,
+    "title": "Don't cache replies of commands that read several keys",
+    "url": "https://github.com/redis-rs/redis-rs/pull/2514",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "you",
+    "since": "2026-10-23T17:01:05Z",
+    "lastActivity": "2026-10-24T20:15:28Z",
+    "reasons": [
+      {
+        "code": "conflict",
+        "text": "merge conflict with main",
+        "url": "https://github.com/redis-rs/redis-rs/pull/2514"
+      }
+    ],
+    "notes": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: Rust",
+        "at": "2026-10-23T17:01:05Z",
+        "url": "https://github.com/redis-rs/redis-rs/pull/2514/checks"
+      },
+      {
+        "code": "comment",
+        "text": "@nihohit commented 2d ago: “[redacted]”",
+        "at": "2026-10-24T20:15:28Z",
+        "url": "https://github.com/redis-rs/redis-rs/pull/2514#issuecomment-6389028819"
+      }
+    ]
+  },
+  {
+    "repo": "python-poetry/poetry",
+    "number": 11159,
+    "title": "fix: resolve relative paths in `poetry self add` against the working directory",
+    "url": "https://github.com/python-poetry/poetry/pull/11159",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "you",
+    "since": "2026-10-24T09:21:59Z",
+    "lastActivity": "2026-10-24T09:21:59Z",
+    "reasons": [
+      {
+        "code": "ci_failed",
+        "text": "CI failed on your head commit: Ubuntu (Python 3.15) / pytest, Windows (Python 3.15) / pytest, macOS aarch64 (Python 3.15) / pytest, Status",
+        "at": "2026-10-24T09:21:59Z",
+        "url": "https://github.com/python-poetry/poetry/pull/11159/checks"
+      }
+    ],
+    "notes": [
+      {
+        "code": "behind",
+        "text": "branch is behind main; protection requires it to be up to date",
+        "url": "https://github.com/python-poetry/poetry/pull/11159"
+      }
+    ]
+  },
+  {
+    "repo": "plotly/plotly.js",
+    "number": 8146,
+    "title": "fix(pie): clear stale leader lines when outside labels move back inside",
+    "url": "https://github.com/plotly/plotly.js/pull/8146",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "you",
+    "since": "2026-10-26T13:39:58Z",
+    "lastActivity": "2026-10-26T20:56:28Z",
+    "reasons": [
+      {
+        "code": "ci_failed",
+        "text": "CI failed on your head commit: noci-jasmine",
+        "at": "2026-10-26T13:39:58Z",
+        "url": "https://github.com/plotly/plotly.js/pull/8146/checks"
+      }
+    ],
+    "notes": [
+      {
+        "code": "review_requested",
+        "text": "review requested from @KoolADE85 9h ago",
+        "at": "2026-10-26T20:56:48Z",
+        "url": "https://github.com/plotly/plotly.js/pull/8146"
+      },
+      {
+        "code": "ci_flaky",
+        "text": "some recent pull requests by others fail this too, so it may be flaky: noci-jasmine (2 of 5)",
+        "url": "https://github.com/plotly/plotly.js/pull/8146/checks"
+      },
+      {
+        "code": "comment",
+        "text": "@KoolADE85 commented 9h ago: “Thanks.”",
+        "at": "2026-10-26T20:56:28Z",
+        "url": "https://github.com/plotly/plotly.js/pull/8146#issuecomment-6427129489"
+      }
+    ]
+  },
+  {
+    "repo": "rany2/edge-tts",
+    "number": 506,
+    "title": "fix: keep split_text_by_byte_length chunks within byte_length when no whitespace is found",
+    "url": "https://github.com/rany2/edge-tts/pull/506",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-15T18:02:23Z",
+    "lastActivity": "2026-10-15T18:02:23Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "2 workflows wait for a maintainer to approve their runs: CodeQL, Check code quality",
+        "at": "2026-10-15T18:02:23Z",
+        "url": "https://github.com/rany2/edge-tts/pull/506/checks"
+      }
+    ]
+  },
+  {
+    "repo": "VOICEVOX/voicevox",
+    "number": 3158,
+    "title": "fix: テンポ欄などへの入力中にキー操作でノートが動いたり消えたりしないようにする",
+    "url": "https://github.com/VOICEVOX/voicevox/pull/3158",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-16T15:29:52Z",
+    "lastActivity": "2026-10-16T15:29:52Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "2 workflows wait for a maintainer to approve their runs: Test, Build Preview Pages",
+        "at": "2026-10-16T15:29:52Z",
+        "url": "https://github.com/VOICEVOX/voicevox/pull/3158/checks"
+      }
+    ]
+  },
+  {
+    "repo": "VOICEVOX/voicevox_engine",
+    "number": 1896,
+    "title": "docs: エディタから起動したエンジンには127.0.0.1でアクセスするよう案内する",
+    "url": "https://github.com/VOICEVOX/voicevox_engine/pull/1896",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-16T16:50:21Z",
+    "lastActivity": "2026-10-16T16:50:21Z",
+    "reasons": [
+      {
+        "code": "awaiting_reply",
+        "text": "you replied last, 10d ago",
+        "at": "2026-10-16T16:50:21Z",
+        "url": "https://github.com/VOICEVOX/voicevox_engine/pull/1896#discussion_r4297078753"
+      }
+    ]
+  },
+  {
+    "repo": "ancs21/awesome-openai-whisper",
+    "number": 18,
+    "title": "Add WhisperPress",
+    "url": "https://github.com/ancs21/awesome-openai-whisper/pull/18",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-16T17:25:18Z",
+    "lastActivity": "2026-10-16T17:25:18Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-16T17:25:18Z",
+        "url": "https://github.com/ancs21/awesome-openai-whisper/pull/18"
+      }
+    ]
+  },
+  {
+    "repo": "VOICEVOX/voicevox",
+    "number": 3168,
+    "title": "ci: シェルスクリプトをShellCheckで検査する",
+    "url": "https://github.com/VOICEVOX/voicevox/pull/3168",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-18T17:52:31Z",
+    "lastActivity": "2026-10-18T17:52:31Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-18T17:52:31Z",
+        "url": "https://github.com/VOICEVOX/voicevox/pull/3168"
+      }
+    ]
+  },
+  {
+    "repo": "hasscc/hass-edge-tts",
+    "number": 83,
+    "title": "Support yue for Cantonese",
+    "url": "https://github.com/hasscc/hass-edge-tts/pull/83",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-19T04:01:06Z",
+    "lastActivity": "2026-10-19T04:01:06Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: Validate",
+        "at": "2026-10-19T04:01:06Z",
+        "url": "https://github.com/hasscc/hass-edge-tts/pull/83/checks"
+      }
+    ]
+  },
+  {
+    "repo": "pylint-dev/astroid",
+    "number": 3410,
+    "title": "Build the __class_getitem__ of PEP 695 classes without transforms",
+    "url": "https://github.com/pylint-dev/astroid/pull/3410",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-19T05:01:19Z",
+    "lastActivity": "2026-10-19T05:01:19Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "6 workflows wait for a maintainer to approve their runs: CodSpeed (simulation), CI, CodSpeed (walltime) (+3 more)",
+        "at": "2026-10-19T05:01:19Z",
+        "url": "https://github.com/pylint-dev/astroid/pull/3410/checks"
+      }
+    ],
+    "notes": [
+      {
+        "code": "mergeable_unknown",
+        "text": "GitHub has not computed mergeability yet",
+        "url": "https://github.com/pylint-dev/astroid/pull/3410"
+      }
+    ]
+  },
+  {
+    "repo": "prettier/prettier",
+    "number": 20324,
+    "title": "Prevent Markdown list markers from forming a thematic break",
+    "url": "https://github.com/prettier/prettier/pull/20324",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-19T06:55:23Z",
+    "lastActivity": "2026-10-19T06:55:23Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "5 workflows wait for a maintainer to approve their runs: Check Sizes, Dev, Lint (+2 more)",
+        "at": "2026-10-19T03:39:48Z",
+        "url": "https://github.com/prettier/prettier/pull/20324/checks"
+      }
+    ]
+  },
+  {
+    "repo": "pylint-dev/pylint",
+    "number": 11691,
+    "title": "Don't check names of attributes assigned in another module",
+    "url": "https://github.com/pylint-dev/pylint/pull/11691",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-19T07:50:43Z",
+    "lastActivity": "2026-10-19T07:50:43Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "6 workflows wait for a maintainer to approve their runs: Primer / Run, Checks, Primer (+3 more)",
+        "at": "2026-10-19T07:50:43Z",
+        "url": "https://github.com/pylint-dev/pylint/pull/11691/checks"
+      }
+    ],
+    "notes": [
+      {
+        "code": "mergeable_unknown",
+        "text": "GitHub has not computed mergeability yet",
+        "url": "https://github.com/pylint-dev/pylint/pull/11691"
+      }
+    ]
+  },
+  {
+    "repo": "pylint-dev/pylint",
+    "number": 11692,
+    "title": "Allow overriding ParamSpec variadics in arguments-differ",
+    "url": "https://github.com/pylint-dev/pylint/pull/11692",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-19T07:52:25Z",
+    "lastActivity": "2026-10-19T07:52:25Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "6 workflows wait for a maintainer to approve their runs: CodeQL, changelog, Primer / Run (+3 more)",
+        "at": "2026-10-19T07:52:25Z",
+        "url": "https://github.com/pylint-dev/pylint/pull/11692/checks"
+      }
+    ],
+    "notes": [
+      {
+        "code": "mergeable_unknown",
+        "text": "GitHub has not computed mergeability yet",
+        "url": "https://github.com/pylint-dev/pylint/pull/11692"
+      }
+    ]
+  },
+  {
+    "repo": "prettier/prettier",
+    "number": 20331,
+    "title": "Keep template literal lines of MDX JSX at the container's indentation",
+    "url": "https://github.com/prettier/prettier/pull/20331",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-19T08:18:18Z",
+    "lastActivity": "2026-10-19T08:18:18Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "5 workflows wait for a maintainer to approve their runs: Lint, Check Sizes, Dev (+2 more)",
+        "at": "2026-10-19T08:18:18Z",
+        "url": "https://github.com/prettier/prettier/pull/20331/checks"
+      }
+    ]
+  },
+  {
+    "repo": "VOICEVOX/voicevox",
+    "number": 3170,
+    "title": "fix: ボタンをマウスで押したあともSpaceキーで再生できるようにする",
+    "url": "https://github.com/VOICEVOX/voicevox/pull/3170",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-19T16:08:31Z",
+    "lastActivity": "2026-10-19T11:13:21Z",
+    "reasons": [
+      {
+        "code": "review_requested",
+        "text": "review requested from @sevenc-nanashi 7d ago",
+        "at": "2026-10-19T16:08:31Z",
+        "url": "https://github.com/VOICEVOX/voicevox/pull/3170"
+      }
+    ]
+  },
+  {
+    "repo": "vuejs/core",
+    "number": 15943,
+    "title": "fix(hmr): update comment nodes on hot reload",
+    "url": "https://github.com/vuejs/core/pull/15943",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-20T01:57:28Z",
+    "lastActivity": "2026-10-20T01:57:28Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "3 workflows wait for a maintainer to approve their runs: autofix.ci, size data, ci",
+        "at": "2026-10-20T01:57:28Z",
+        "url": "https://github.com/vuejs/core/pull/15943/checks"
+      }
+    ]
+  },
+  {
+    "repo": "mermaid-js/mermaid",
+    "number": 8497,
+    "title": "fix: copy only the edges of each node when extracting clusters",
+    "url": "https://github.com/mermaid-js/mermaid/pull/8497",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-20T02:37:53Z",
+    "lastActivity": "2026-10-20T02:37:53Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-20T02:37:53Z",
+        "url": "https://github.com/mermaid-js/mermaid/pull/8497"
+      }
+    ]
+  },
+  {
+    "repo": "ant-design/ant-design",
+    "number": 59611,
+    "title": "fix(Table): apply defaultSortOrder on grouping columns",
+    "url": "https://github.com/ant-design/ant-design/pull/59611",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-20T02:49:13Z",
+    "lastActivity": "2026-10-20T02:49:13Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-20T02:49:13Z",
+        "url": "https://github.com/ant-design/ant-design/pull/59611"
+      }
+    ]
+  },
+  {
+    "repo": "excalidraw/excalidraw",
+    "number": 12368,
+    "title": "fix(editor): ignore clipped frame children when zooming to fit",
+    "url": "https://github.com/excalidraw/excalidraw/pull/12368",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-20T04:50:30Z",
+    "lastActivity": "2026-10-20T04:50:30Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "4 workflows wait for a maintainer to approve their runs: Lint, Test Coverage PR, Cancel previous runs (+1 more)",
+        "at": "2026-10-20T04:50:30Z",
+        "url": "https://github.com/excalidraw/excalidraw/pull/12368/checks"
+      }
+    ]
+  },
+  {
+    "repo": "mermaid-js/mermaid",
+    "number": 8498,
+    "title": "fix: require a state id after \"as\" in state diagrams",
+    "url": "https://github.com/mermaid-js/mermaid/pull/8498",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-20T08:39:25Z",
+    "lastActivity": "2026-10-20T08:39:25Z",
+    "reasons": [
+      {
+        "code": "maintainer_check",
+        "text": "a failed check only a maintainer can clear: argos (1 changed — waiting for your decision)",
+        "at": "2026-10-20T03:15:40Z",
+        "url": "https://github.com/mermaid-js/mermaid/pull/8498/checks"
+      }
+    ]
+  },
+  {
+    "repo": "react-component/image",
+    "number": 535,
+    "title": "fix: don't apply the thumbnail srcSet to the preview of preview.src",
+    "url": "https://github.com/react-component/image/pull/535",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-20T08:51:41Z",
+    "lastActivity": "2026-10-20T08:51:41Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "3 workflows wait for a maintainer to approve their runs: Surge Preview, React Doctor, ✅ test",
+        "at": "2026-10-20T08:51:41Z",
+        "url": "https://github.com/react-component/image/pull/535/checks"
+      },
+      {
+        "code": "maintainer_check",
+        "text": "a failed check only a maintainer can clear: Vercel – image (Authorization required to deploy.)",
+        "at": "2026-10-20T08:51:41Z",
+        "url": "https://github.com/react-component/image/pull/535/checks"
+      }
+    ]
+  },
+  {
+    "repo": "sveltejs/kit",
+    "number": 17499,
+    "title": "fix(enhanced-img): compute the missing dimension at runtime for imported images",
+    "url": "https://github.com/sveltejs/kit/pull/17499",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-20T08:59:32Z",
+    "lastActivity": "2026-10-20T08:59:32Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-20T08:59:32Z",
+        "url": "https://github.com/sveltejs/kit/pull/17499"
+      }
+    ]
+  },
+  {
+    "repo": "vuejs/vitepress",
+    "number": 5548,
+    "title": "fix: resolve a symlinked srcDir to its real path",
+    "url": "https://github.com/vuejs/vitepress/pull/5548",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-20T09:11:41Z",
+    "lastActivity": "2026-10-20T09:11:41Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "2 workflows wait for a maintainer to approve their runs: Test, CR",
+        "at": "2026-10-20T09:11:41Z",
+        "url": "https://github.com/vuejs/vitepress/pull/5548/checks"
+      }
+    ]
+  },
+  {
+    "repo": "vue-macros/vue-macros",
+    "number": 1026,
+    "title": "fix(define-props-refs): transform code read by Vite HMR",
+    "url": "https://github.com/vue-macros/vue-macros/pull/1026",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-20T09:35:21Z",
+    "lastActivity": "2026-10-20T09:35:21Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-20T09:35:21Z",
+        "url": "https://github.com/vue-macros/vue-macros/pull/1026"
+      }
+    ]
+  },
+  {
+    "repo": "apache/echarts",
+    "number": 21799,
+    "title": "fix(toolbox): respect series.stack when switching magicType stack. close #15571",
+    "url": "https://github.com/apache/echarts/pull/21799",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-20T11:39:34Z",
+    "lastActivity": "2026-10-20T11:39:34Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: Node CI",
+        "at": "2026-10-20T11:39:34Z",
+        "url": "https://github.com/apache/echarts/pull/21799/checks"
+      }
+    ]
+  },
+  {
+    "repo": "tqdm/tqdm",
+    "number": 1889,
+    "title": "bar_format: show unknown rates as `?` with format specs",
+    "url": "https://github.com/tqdm/tqdm/pull/1889",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-20T12:04:15Z",
+    "lastActivity": "2026-10-20T12:04:15Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "2 workflows wait for a maintainer to approve their runs: Check, Test",
+        "at": "2026-10-20T12:04:15Z",
+        "url": "https://github.com/tqdm/tqdm/pull/1889/checks"
+      },
+      {
+        "code": "review_requested",
+        "text": "review requested from @casperdcl 6d ago",
+        "at": "2026-10-20T12:04:12Z",
+        "url": "https://github.com/tqdm/tqdm/pull/1889"
+      }
+    ],
+    "notes": [
+      {
+        "code": "ci_failed_on_peers",
+        "text": "also failing on recent pull requests by others, so probably not your change: pre-commit.ci - pr (4 of 8)",
+        "url": "https://github.com/tqdm/tqdm/pull/1889/checks"
+      }
+    ]
+  },
+  {
+    "repo": "kobaltedev/kobalte",
+    "number": 750,
+    "title": "fix(utils): stop scrollIntoViewport from looping when the root hides overflow",
+    "url": "https://github.com/kobaltedev/kobalte/pull/750",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-20T13:45:26Z",
+    "lastActivity": "2026-10-20T13:45:26Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "3 workflows wait for a maintainer to approve their runs: Format & Lint Files, Build, Test",
+        "at": "2026-10-20T13:45:26Z",
+        "url": "https://github.com/kobaltedev/kobalte/pull/750/checks"
+      }
+    ]
+  },
+  {
+    "repo": "jazzband/django-model-utils",
+    "number": 668,
+    "title": "Fix migrations of models with a SplitField",
+    "url": "https://github.com/jazzband/django-model-utils/pull/668",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-20T16:35:42Z",
+    "lastActivity": "2026-10-20T16:35:42Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: Test",
+        "at": "2026-10-20T16:35:42Z",
+        "url": "https://github.com/jazzband/django-model-utils/pull/668/checks"
+      }
+    ]
+  },
+  {
+    "repo": "socketio/socket.io",
+    "number": 5579,
+    "title": "fix(eio): do not access the uWS request after an async middleware",
+    "url": "https://github.com/socketio/socket.io/pull/5579",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-20T16:43:19Z",
+    "lastActivity": "2026-10-20T16:43:19Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "9 workflows wait for a maintainer to approve their runs: CI (socket.io-client)), CI (@socket.io/postgres-emitter), CI (socket.io-adapter) (+6 more)",
+        "at": "2026-10-20T16:43:19Z",
+        "url": "https://github.com/socketio/socket.io/pull/5579/checks"
+      }
+    ]
+  },
+  {
+    "repo": "jestjs/jest",
+    "number": 16513,
+    "title": "fix(jest-circus, jest-jasmine2): apply testTimeout from a project config",
+    "url": "https://github.com/jestjs/jest/pull/16513",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-21T04:12:53Z",
+    "lastActivity": "2026-10-21T04:12:53Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-21T04:12:53Z",
+        "url": "https://github.com/jestjs/jest/pull/16513"
+      }
+    ]
+  },
+  {
+    "repo": "flatpickr/flatpickr",
+    "number": 3145,
+    "title": "Don't rewrite the mobile input while it's being typed into",
+    "url": "https://github.com/flatpickr/flatpickr/pull/3145",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-21T06:39:14Z",
+    "lastActivity": "2026-10-21T06:39:14Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-21T06:39:14Z",
+        "url": "https://github.com/flatpickr/flatpickr/pull/3145"
+      }
+    ]
+  },
+  {
+    "repo": "dorianbrown/rank_bm25",
+    "number": 60,
+    "title": "Add score regression tests for all three BM25 variants",
+    "url": "https://github.com/dorianbrown/rank_bm25/pull/60",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-21T06:39:21Z",
+    "lastActivity": "2026-10-21T06:39:21Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-21T06:39:21Z",
+        "url": "https://github.com/dorianbrown/rank_bm25/pull/60"
+      }
+    ]
+  },
+  {
+    "repo": "dorianbrown/rank_bm25",
+    "number": 61,
+    "title": "Run the test workflow on pull requests and Python 3.13/3.14",
+    "url": "https://github.com/dorianbrown/rank_bm25/pull/61",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-21T12:38:17Z",
+    "lastActivity": "2026-10-21T12:38:17Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: pytest",
+        "at": "2026-10-21T12:38:17Z",
+        "url": "https://github.com/dorianbrown/rank_bm25/pull/61/checks"
+      }
+    ]
+  },
+  {
+    "repo": "testing-library/user-event",
+    "number": 1336,
+    "title": "fix(selectOptions): allow deselecting options in a multiselectable listbox",
+    "url": "https://github.com/testing-library/user-event/pull/1336",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-21T13:12:54Z",
+    "lastActivity": "2026-10-21T13:12:54Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: CI",
+        "at": "2026-10-21T13:12:54Z",
+        "url": "https://github.com/testing-library/user-event/pull/1336/checks"
+      }
+    ]
+  },
+  {
+    "repo": "tornadoweb/tornado",
+    "number": 3830,
+    "title": "wsgi: Discard the response body for HEAD requests",
+    "url": "https://github.com/tornadoweb/tornado/pull/3830",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-21T13:13:40Z",
+    "lastActivity": "2026-10-21T13:13:40Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-21T13:13:40Z",
+        "url": "https://github.com/tornadoweb/tornado/pull/3830"
+      }
+    ]
+  },
+  {
+    "repo": "usebruno/bruno",
+    "number": 9591,
+    "title": "fix(codegen): strip comments from JSON body in generated code",
+    "url": "https://github.com/usebruno/bruno/pull/9591",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-21T14:21:53Z",
+    "lastActivity": "2026-10-21T14:21:53Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "3 workflows wait for a maintainer to approve their runs: Windows Tests, Linux Tests, Lint Checks",
+        "at": "2026-10-21T14:21:53Z",
+        "url": "https://github.com/usebruno/bruno/pull/9591/checks"
+      },
+      {
+        "code": "review_requested",
+        "text": "review requested from @helloanoop, @bijin-bruno, @lohit-bruno (+1 more) 6d ago",
+        "at": "2026-10-21T03:51:31Z",
+        "url": "https://github.com/usebruno/bruno/pull/9591"
+      }
+    ],
+    "notes": [
+      {
+        "code": "mergeable_unknown",
+        "text": "GitHub has not computed mergeability yet",
+        "url": "https://github.com/usebruno/bruno/pull/9591"
+      }
+    ]
+  },
+  {
+    "repo": "toeverything/AFFiNE",
+    "number": 15726,
+    "title": "fix(editor): keep numbered list start number in markdown and html export",
+    "url": "https://github.com/toeverything/AFFiNE/pull/15726",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-21T14:22:01Z",
+    "lastActivity": "2026-10-21T14:22:01Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "2 workflows wait for a maintainer to approve their runs: PR Title Lint, Build & Test",
+        "at": "2026-10-21T11:45:50Z",
+        "url": "https://github.com/toeverything/AFFiNE/pull/15726/checks"
+      }
+    ]
+  },
+  {
+    "repo": "PyGithub/PyGithub",
+    "number": 3599,
+    "title": "Derive `Commit.repository` from the commit url",
+    "url": "https://github.com/PyGithub/PyGithub/pull/3599",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-21T16:23:02Z",
+    "lastActivity": "2026-10-21T16:23:02Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "3 workflows wait for a maintainer to approve their runs: CI, Lint, CodeQL Advanced",
+        "at": "2026-10-21T16:23:02Z",
+        "url": "https://github.com/PyGithub/PyGithub/pull/3599/checks"
+      }
+    ]
+  },
+  {
+    "repo": "clauderic/dnd-kit",
+    "number": 2158,
+    "title": "fix(dom): hide placeholder descendants that set visibility: visible",
+    "url": "https://github.com/clauderic/dnd-kit/pull/2158",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-21T17:01:26Z",
+    "lastActivity": "2026-10-21T17:01:26Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "4 workflows wait for a maintainer to approve their runs: Playwright, Chromatic, Tests (+1 more)",
+        "at": "2026-10-21T17:01:26Z",
+        "url": "https://github.com/clauderic/dnd-kit/pull/2158/checks"
+      }
+    ]
+  },
+  {
+    "repo": "Unitech/pm2",
+    "number": 6174,
+    "title": "fix: connect() crashes when called right after disconnect()",
+    "url": "https://github.com/Unitech/pm2/pull/6174",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-21T17:40:02Z",
+    "lastActivity": "2026-10-21T17:40:02Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: Node.js CI",
+        "at": "2026-10-21T17:40:02Z",
+        "url": "https://github.com/Unitech/pm2/pull/6174/checks"
+      }
+    ]
+  },
+  {
+    "repo": "textlint-ja/textlint-rule-ja-no-successive-word",
+    "number": 36,
+    "title": "feat: 記号や空白の連続を許可するオプションを追加",
+    "url": "https://github.com/textlint-ja/textlint-rule-ja-no-successive-word/pull/36",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-22T02:02:44Z",
+    "lastActivity": "2026-10-22T02:02:44Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: test",
+        "at": "2026-10-22T02:02:37Z",
+        "url": "https://github.com/textlint-ja/textlint-rule-ja-no-successive-word/pull/36/checks"
+      }
+    ]
+  },
+  {
+    "repo": "django-oscar/django-oscar",
+    "number": 4648,
+    "title": "Fix AJAX basket update crashing when the basket cookie has expired",
+    "url": "https://github.com/django-oscar/django-oscar/pull/4648",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-22T02:34:55Z",
+    "lastActivity": "2026-10-22T02:34:55Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: Tests",
+        "at": "2026-10-22T02:34:55Z",
+        "url": "https://github.com/django-oscar/django-oscar/pull/4648/checks"
+      }
+    ]
+  },
+  {
+    "repo": "TypeStrong/typedoc",
+    "number": 3143,
+    "title": "Keep abstract on constructor types converted from a type",
+    "url": "https://github.com/TypeStrong/typedoc/pull/3143",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-22T03:31:07Z",
+    "lastActivity": "2026-10-22T03:31:07Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-22T03:31:07Z",
+        "url": "https://github.com/TypeStrong/typedoc/pull/3143"
+      }
+    ]
+  },
+  {
+    "repo": "gitui-org/gitui",
+    "number": 3042,
+    "title": "Show the \"No newline at end of file\" marker as a plain diff line",
+    "url": "https://github.com/gitui-org/gitui/pull/3042",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-22T03:56:01Z",
+    "lastActivity": "2026-10-22T03:56:01Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: CI",
+        "at": "2026-10-22T03:56:01Z",
+        "url": "https://github.com/gitui-org/gitui/pull/3042/checks"
+      }
+    ]
+  },
+  {
+    "repo": "surrealdb/surrealdb",
+    "number": 7616,
+    "title": "Read SURREAL_SURREALISM_MAX_POOL_SIZE into CommonConfig",
+    "url": "https://github.com/surrealdb/surrealdb/pull/7616",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-22T06:22:39Z",
+    "lastActivity": "2026-10-22T06:22:39Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "5 workflows wait for a maintainer to approve their runs: Language bench (PR), Downstream compatibility, Labeler (+2 more)",
+        "at": "2026-10-22T06:22:39Z",
+        "url": "https://github.com/surrealdb/surrealdb/pull/7616/checks"
+      }
+    ]
+  },
+  {
+    "repo": "oxc-project/oxc",
+    "number": 28094,
+    "title": "fix(linter/jsx-a11y/autocomplete-valid): accept section, shipping/billing and contact-type tokens",
+    "url": "https://github.com/oxc-project/oxc/pull/28094",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-22T06:34:58Z",
+    "lastActivity": "2026-10-22T06:34:58Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "6 workflows wait for a maintainer to approve their runs: Semgrep, CI, autofix.ci (+3 more)",
+        "at": "2026-10-22T06:34:58Z",
+        "url": "https://github.com/oxc-project/oxc/pull/28094/checks"
+      },
+      {
+        "code": "review_requested",
+        "text": "review requested from @camc314 5d ago",
+        "at": "2026-10-22T06:34:55Z",
+        "url": "https://github.com/oxc-project/oxc/pull/28094"
+      }
+    ],
+    "notes": [
+      {
+        "code": "mergeable_unknown",
+        "text": "GitHub has not computed mergeability yet",
+        "url": "https://github.com/oxc-project/oxc/pull/28094"
+      }
+    ]
+  },
+  {
+    "repo": "react-grid-layout/react-grid-layout",
+    "number": 2314,
+    "title": "fix: stop edge auto-scroll when the dropping placeholder unmounts (#2312)",
+    "url": "https://github.com/react-grid-layout/react-grid-layout/pull/2314",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-22T11:06:30Z",
+    "lastActivity": "2026-10-22T11:06:30Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "3 workflows wait for a maintainer to approve their runs: Lint, CI, Dependency Audit",
+        "at": "2026-10-22T11:06:30Z",
+        "url": "https://github.com/react-grid-layout/react-grid-layout/pull/2314/checks"
+      }
+    ]
+  },
+  {
+    "repo": "parcel-bundler/lightningcss",
+    "number": 1380,
+    "title": "fix: reject min-/max- prefixed media features in a boolean context",
+    "url": "https://github.com/parcel-bundler/lightningcss/pull/1380",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-22T11:16:06Z",
+    "lastActivity": "2026-10-22T11:16:06Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "2 workflows wait for a maintainer to approve their runs: codspeed, test",
+        "at": "2026-10-22T11:16:06Z",
+        "url": "https://github.com/parcel-bundler/lightningcss/pull/1380/checks"
+      }
+    ],
+    "notes": [
+      {
+        "code": "behind",
+        "text": "branch is behind master; protection requires it to be up to date",
+        "url": "https://github.com/parcel-bundler/lightningcss/pull/1380"
+      }
+    ]
+  },
+  {
+    "repo": "simonw/datasette",
+    "number": 3011,
+    "title": "Detect FTS tables with unquoted or single-quoted content=",
+    "url": "https://github.com/simonw/datasette/pull/3011",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-22T11:30:41Z",
+    "lastActivity": "2026-10-22T11:30:41Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "6 workflows wait for a maintainer to approve their runs: Test in Pyodide with shot-scraper, Check spelling in documentation, Check JavaScript for conformance with Prettier (+3 more)",
+        "at": "2026-10-22T11:30:41Z",
+        "url": "https://github.com/simonw/datasette/pull/3011/checks"
+      }
+    ]
+  },
+  {
+    "repo": "sequelize/sequelize",
+    "number": 18580,
+    "title": "fix(sqlite3): keep foreign keys that reference a renamed table",
+    "url": "https://github.com/sequelize/sequelize/pull/18580",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-22T15:59:01Z",
+    "lastActivity": "2026-10-22T15:59:01Z",
+    "reasons": [
+      {
+        "code": "review_requested",
+        "text": "review requested from @ephys, @WikiRik 4d ago",
+        "at": "2026-10-22T15:58:59Z",
+        "url": "https://github.com/sequelize/sequelize/pull/18580"
+      }
+    ],
+    "notes": [
+      {
+        "code": "bot_threads",
+        "text": "1 unresolved thread from bots",
+        "url": "https://github.com/sequelize/sequelize/pull/18580/files"
+      },
+      {
+        "code": "behind",
+        "text": "branch is behind main; protection requires it to be up to date",
+        "url": "https://github.com/sequelize/sequelize/pull/18580"
+      }
+    ]
+  },
+  {
+    "repo": "knex/knex",
+    "number": 6550,
+    "title": "fix: #6065, reject transaction when handler rejects with undefined",
+    "url": "https://github.com/knex/knex/pull/6550",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-22T16:40:27Z",
+    "lastActivity": "2026-10-22T16:40:27Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "6 workflows wait for a maintainer to approve their runs: Linting and Types, Ensure labels, CodeQL (+3 more)",
+        "at": "2026-10-22T16:40:27Z",
+        "url": "https://github.com/knex/knex/pull/6550/checks"
+      }
+    ]
+  },
+  {
+    "repo": "juhaku/utoipa",
+    "number": 1649,
+    "title": "Always serialize the description of a response",
+    "url": "https://github.com/juhaku/utoipa/pull/1649",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-22T16:52:01Z",
+    "lastActivity": "2026-10-22T16:52:01Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-22T16:52:01Z",
+        "url": "https://github.com/juhaku/utoipa/pull/1649"
+      }
+    ]
+  },
+  {
+    "repo": "ouch-org/ouch",
+    "number": 1106,
+    "title": "fix: detect legacy lz4 frames from their signature",
+    "url": "https://github.com/ouch-org/ouch/pull/1106",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-23T02:06:51Z",
+    "lastActivity": "2026-10-24T20:14:48Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for maintainers since your last push 4d ago",
+        "at": "2026-10-23T02:06:51Z",
+        "url": "https://github.com/ouch-org/ouch/pull/1106"
+      }
+    ],
+    "notes": [
+      {
+        "code": "community_approval",
+        "text": "approved by @mvastola, who has no write access",
+        "url": "https://github.com/ouch-org/ouch/pull/1106"
+      },
+      {
+        "code": "comment",
+        "text": "@mvastola approved 2d ago: “Thanks.”",
+        "at": "2026-10-24T20:14:48Z",
+        "url": "https://github.com/ouch-org/ouch/pull/1106#pullrequestreview-5639787376"
+      }
+    ]
+  },
+  {
+    "repo": "sequelize/sequelize",
+    "number": 18584,
+    "title": "fix(core): respect the scope of the included model in separate includes",
+    "url": "https://github.com/sequelize/sequelize/pull/18584",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-23T02:20:34Z",
+    "lastActivity": "2026-10-23T02:20:34Z",
+    "reasons": [
+      {
+        "code": "review_requested",
+        "text": "review requested from @sdepold, @SippieCup 4d ago",
+        "at": "2026-10-23T02:20:31Z",
+        "url": "https://github.com/sequelize/sequelize/pull/18584"
+      }
+    ],
+    "notes": [
+      {
+        "code": "behind",
+        "text": "branch is behind main; protection requires it to be up to date",
+        "url": "https://github.com/sequelize/sequelize/pull/18584"
+      }
+    ]
+  },
+  {
+    "repo": "piccolo-orm/piccolo",
+    "number": 1445,
+    "title": "Return Decimal values from Array(Numeric()) columns in SQLite",
+    "url": "https://github.com/piccolo-orm/piccolo/pull/1445",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-23T02:32:36Z",
+    "lastActivity": "2026-10-23T02:32:36Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: Test Suite",
+        "at": "2026-10-23T02:32:36Z",
+        "url": "https://github.com/piccolo-orm/piccolo/pull/1445/checks"
+      }
+    ]
+  },
+  {
+    "repo": "rkyv/rkyv",
+    "number": 713,
+    "title": "Don't warn about deprecated fields when deriving `Archive`",
+    "url": "https://github.com/rkyv/rkyv/pull/713",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-23T02:40:46Z",
+    "lastActivity": "2026-10-23T02:40:46Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: CI",
+        "at": "2026-10-23T02:40:46Z",
+        "url": "https://github.com/rkyv/rkyv/pull/713/checks"
+      }
+    ]
+  },
+  {
+    "repo": "quasarframework/quasar",
+    "number": 18578,
+    "title": "fix(QSlider/QRange): keep the values aligned to a fractional min",
+    "url": "https://github.com/quasarframework/quasar/pull/18578",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-23T02:56:37Z",
+    "lastActivity": "2026-10-23T02:56:37Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: ui tests",
+        "at": "2026-10-23T02:56:37Z",
+        "url": "https://github.com/quasarframework/quasar/pull/18578/checks"
+      }
+    ],
+    "notes": [
+      {
+        "code": "bot_threads",
+        "text": "1 unresolved thread from bots",
+        "url": "https://github.com/quasarframework/quasar/pull/18578/files"
+      }
+    ]
+  },
+  {
+    "repo": "lmcinnes/umap",
+    "number": 1319,
+    "title": "Raise a clear error when per-feature metric parameters don't match the data",
+    "url": "https://github.com/lmcinnes/umap/pull/1319",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-23T06:00:50Z",
+    "lastActivity": "2026-10-23T06:00:50Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-23T06:00:50Z",
+        "url": "https://github.com/lmcinnes/umap/pull/1319"
+      }
+    ]
+  },
+  {
+    "repo": "lsd-rs/lsd",
+    "number": 1248,
+    "title": "windows: list files whose full path is longer than MAX_PATH",
+    "url": "https://github.com/lsd-rs/lsd/pull/1248",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-23T12:51:53Z",
+    "lastActivity": "2026-10-23T12:51:53Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: CICD",
+        "at": "2026-10-23T12:51:53Z",
+        "url": "https://github.com/lsd-rs/lsd/pull/1248/checks"
+      },
+      {
+        "code": "review_requested",
+        "text": "review requested from @zwpaper 3d ago",
+        "at": "2026-10-23T12:51:50Z",
+        "url": "https://github.com/lsd-rs/lsd/pull/1248"
+      }
+    ]
+  },
+  {
+    "repo": "PyCQA/isort",
+    "number": 2744,
+    "title": "Expand known_* directory entries ending in \"/\" on Windows",
+    "url": "https://github.com/PyCQA/isort/pull/2744",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-23T16:42:59Z",
+    "lastActivity": "2026-10-23T16:42:59Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: CI",
+        "at": "2026-10-23T16:42:59Z",
+        "url": "https://github.com/PyCQA/isort/pull/2744/checks"
+      }
+    ]
+  },
+  {
+    "repo": "wanasit/chrono",
+    "number": 682,
+    "title": "fix(zh): parse three-character Chinese numeral days in zh.hant dates",
+    "url": "https://github.com/wanasit/chrono/pull/682",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-24T04:12:04Z",
+    "lastActivity": "2026-10-24T04:12:04Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: Run test and coverage",
+        "at": "2026-10-24T04:12:04Z",
+        "url": "https://github.com/wanasit/chrono/pull/682/checks"
+      }
+    ]
+  },
+  {
+    "repo": "rust-ndarray/ndarray",
+    "number": 1625,
+    "title": "fix: partition panics on lanes with a negative stride",
+    "url": "https://github.com/rust-ndarray/ndarray/pull/1625",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-24T08:46:36Z",
+    "lastActivity": "2026-10-24T08:46:36Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: Continuous integration",
+        "at": "2026-10-24T08:46:36Z",
+        "url": "https://github.com/rust-ndarray/ndarray/pull/1625/checks"
+      }
+    ]
+  },
+  {
+    "repo": "pylint-dev/astroid",
+    "number": 3409,
+    "title": "Include fields of an init=False dataclass base in a subclass's __init__",
+    "url": "https://github.com/pylint-dev/astroid/pull/3409",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-24T09:21:28Z",
+    "lastActivity": "2026-10-24T09:21:28Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "6 workflows wait for a maintainer to approve their runs: CodeQL, CodSpeed (walltime), CodSpeed (simulation) (+3 more)",
+        "at": "2026-10-24T09:21:28Z",
+        "url": "https://github.com/pylint-dev/astroid/pull/3409/checks"
+      }
+    ],
+    "notes": [
+      {
+        "code": "mergeable_unknown",
+        "text": "GitHub has not computed mergeability yet",
+        "url": "https://github.com/pylint-dev/astroid/pull/3409"
+      }
+    ]
+  },
+  {
+    "repo": "langgenius/dify",
+    "number": 44175,
+    "title": "fix(i18n/zh-Hant): use Taiwan terminology and fix Simplified strings",
+    "url": "https://github.com/langgenius/dify/pull/44175",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-24T09:21:32Z",
+    "lastActivity": "2026-10-24T09:21:32Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "5 workflows wait for a maintainer to approve their runs: Image optimization, autofix.ci, KnowledgeFS CI (+2 more)",
+        "at": "2026-10-24T09:21:32Z",
+        "url": "https://github.com/langgenius/dify/pull/44175/checks"
+      },
+      {
+        "code": "review_requested",
+        "text": "review requested from @iamjoel 11d ago",
+        "at": "2026-10-15T17:30:59Z",
+        "url": "https://github.com/langgenius/dify/pull/44175"
+      }
+    ],
+    "notes": [
+      {
+        "code": "bot_threads",
+        "text": "2 unresolved threads from bots",
+        "url": "https://github.com/langgenius/dify/pull/44175/files"
+      },
+      {
+        "code": "mergeable_unknown",
+        "text": "GitHub has not computed mergeability yet",
+        "url": "https://github.com/langgenius/dify/pull/44175"
+      }
+    ]
+  },
+  {
+    "repo": "jsx-eslint/eslint-plugin-react",
+    "number": 4060,
+    "title": "[Fix] `static-property-placement`: don't report a typed `context` field",
+    "url": "https://github.com/jsx-eslint/eslint-plugin-react/pull/4060",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-24T09:21:49Z",
+    "lastActivity": "2026-10-24T09:21:49Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-24T09:21:49Z",
+        "url": "https://github.com/jsx-eslint/eslint-plugin-react/pull/4060"
+      }
+    ],
+    "notes": [
+      {
+        "code": "mergeable_unknown",
+        "text": "GitHub has not computed mergeability yet",
+        "url": "https://github.com/jsx-eslint/eslint-plugin-react/pull/4060"
+      }
+    ]
+  },
+  {
+    "repo": "dagster-io/dagster",
+    "number": 34334,
+    "title": "[core] Fix DbIOManager for multi-partitioned assets with a dynamic dimension",
+    "url": "https://github.com/dagster-io/dagster/pull/34334",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-24T09:21:58Z",
+    "lastActivity": "2026-10-24T09:21:58Z",
+    "reasons": [
+      {
+        "code": "awaiting_reply",
+        "text": "you replied last, 2d ago",
+        "at": "2026-10-24T09:21:58Z",
+        "url": "https://github.com/dagster-io/dagster/pull/34334#issuecomment-6382490805"
+      }
+    ],
+    "notes": [
+      {
+        "code": "ci_failed_on_peers",
+        "text": "also failing on recent pull requests by others, so probably not your change: buildkite/unit-tests (8 of 8)",
+        "url": "https://github.com/dagster-io/dagster/pull/34334/checks"
+      }
+    ]
+  },
+  {
+    "repo": "vega/vega-lite",
+    "number": 9960,
+    "title": "fix: use fillOpacity for conditional and expression axis labelOpacity",
+    "url": "https://github.com/vega/vega-lite/pull/9960",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-24T09:22:00Z",
+    "lastActivity": "2026-10-24T09:22:00Z",
+    "reasons": [
+      {
+        "code": "awaiting_reply",
+        "text": "you replied last, 2d ago",
+        "at": "2026-10-24T09:22:00Z",
+        "url": "https://github.com/vega/vega-lite/pull/9960#issuecomment-6382491019"
+      }
+    ],
+    "notes": [
+      {
+        "code": "ci_failed_on_peers",
+        "text": "also failing on recent pull requests by others, so probably not your change: Format, Schema, and Examples (3 of 6)",
+        "url": "https://github.com/vega/vega-lite/pull/9960/checks"
+      }
+    ]
+  },
+  {
+    "repo": "sequelize/sequelize",
+    "number": 18578,
+    "title": "fix(core): keep explicit timestamps in Model.upsert when column names differ",
+    "url": "https://github.com/sequelize/sequelize/pull/18578",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-24T09:22:01Z",
+    "lastActivity": "2026-10-24T09:22:01Z",
+    "reasons": [
+      {
+        "code": "review_requested",
+        "text": "review requested from @ephys, @WikiRik 4d ago",
+        "at": "2026-10-22T11:54:52Z",
+        "url": "https://github.com/sequelize/sequelize/pull/18578"
+      }
+    ],
+    "notes": [
+      {
+        "code": "bot_threads",
+        "text": "1 unresolved thread from bots",
+        "url": "https://github.com/sequelize/sequelize/pull/18578/files"
+      },
+      {
+        "code": "behind",
+        "text": "branch is behind main; protection requires it to be up to date",
+        "url": "https://github.com/sequelize/sequelize/pull/18578"
+      }
+    ]
+  },
+  {
+    "repo": "typeorm/typeorm",
+    "number": 12996,
+    "title": "fix: await async entity listeners declared in embeddeds",
+    "url": "https://github.com/typeorm/typeorm/pull/12996",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-24T19:31:38Z",
+    "lastActivity": "2026-10-24T19:31:38Z",
+    "reasons": [
+      {
+        "code": "approved",
+        "text": "approved by @gioboa, @Cprakhar 2d ago, not merged yet",
+        "at": "2026-10-24T19:31:38Z",
+        "url": "https://github.com/typeorm/typeorm/pull/12996"
+      },
+      {
+        "code": "review_requested",
+        "text": "review requested from @smith-xyz, @alumni 2d ago",
+        "at": "2026-10-24T17:10:54Z",
+        "url": "https://github.com/typeorm/typeorm/pull/12996"
+      }
+    ],
+    "notes": [
+      {
+        "code": "comment",
+        "text": "@gioboa approved 2d ago: “Thanks. @b84330808”",
+        "at": "2026-10-24T19:31:38Z",
+        "url": "https://github.com/typeorm/typeorm/pull/12996#pullrequestreview-5639627848"
+      },
+      {
+        "code": "behind",
+        "text": "branch is behind master; protection requires it to be up to date",
+        "url": "https://github.com/typeorm/typeorm/pull/12996"
+      }
+    ]
+  },
+  {
+    "repo": "bombshell-dev/clack",
+    "number": 627,
+    "title": "fix(prompts): handle trailing backslash in path prompt directory mode",
+    "url": "https://github.com/bombshell-dev/clack/pull/627",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-25T07:07:30Z",
+    "lastActivity": "2026-10-25T07:07:30Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "2 workflows wait for a maintainer to approve their runs: CI, Preview",
+        "at": "2026-10-23T12:50:33Z",
+        "url": "https://github.com/bombshell-dev/clack/pull/627/checks"
+      }
+    ],
+    "notes": [
+      {
+        "code": "ci_failed_on_peers",
+        "text": "also failing on recent pull requests by others, so probably not your change: detect / detect (3 of 3)",
+        "url": "https://github.com/bombshell-dev/clack/pull/627/checks"
+      }
+    ]
+  },
+  {
+    "repo": "charmbracelet/glamour",
+    "number": 651,
+    "title": "fix(ansi): normalize CRLF in code blocks rendered without chroma",
+    "url": "https://github.com/charmbracelet/glamour/pull/651",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-25T12:23:18Z",
+    "lastActivity": "2026-10-25T12:23:18Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "3 workflows wait for a maintainer to approve their runs: coverage, lint, build",
+        "at": "2026-10-25T12:23:18Z",
+        "url": "https://github.com/charmbracelet/glamour/pull/651/checks"
+      }
+    ]
+  },
+  {
+    "repo": "tradingview/lightweight-charts",
+    "number": 2175,
+    "title": "fix: format default tick marks in UTC so DST gaps don't shift labels",
+    "url": "https://github.com/tradingview/lightweight-charts/pull/2175",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-25T16:38:40Z",
+    "lastActivity": "2026-10-25T16:38:40Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "2 workflows wait for a maintainer to approve their runs: GitHub Actions Security Analysis with zizmor 🌈, size",
+        "at": "2026-10-25T16:38:40Z",
+        "url": "https://github.com/tradingview/lightweight-charts/pull/2175/checks"
+      }
+    ]
+  },
+  {
+    "repo": "jasmine/jasmine",
+    "number": 2122,
+    "title": "Match bigints with jasmine.any(BigInt) and toBeInstanceOf(BigInt)",
+    "url": "https://github.com/jasmine/jasmine/pull/2122",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-26T06:52:23Z",
+    "lastActivity": "2026-10-26T06:52:23Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: Test in latest available Safari",
+        "at": "2026-10-26T01:44:08Z",
+        "url": "https://github.com/jasmine/jasmine/pull/2122/checks"
+      }
+    ]
+  },
+  {
+    "repo": "locustio/locust",
+    "number": 3577,
+    "title": "Save a locustfile downloaded from a URL byte for byte",
+    "url": "https://github.com/locustio/locust/pull/3577",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-26T08:38:49Z",
+    "lastActivity": "2026-10-26T08:38:49Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-26T08:38:49Z",
+        "url": "https://github.com/locustio/locust/pull/3577"
+      }
+    ]
+  },
+  {
+    "repo": "mlflow/mlflow",
+    "number": 27140,
+    "title": "Fix post-import hooks on Python 3.15 by implementing `exec_module`",
+    "url": "https://github.com/mlflow/mlflow/pull/27140",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-26T10:38:42Z",
+    "lastActivity": "2026-10-26T10:38:42Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "13 workflows wait for a maintainer to approve their runs: Protect, MLflow tests, docs (+10 more)",
+        "at": "2026-10-26T10:38:42Z",
+        "url": "https://github.com/mlflow/mlflow/pull/27140/checks"
+      },
+      {
+        "code": "maintainer_check",
+        "text": "a failed check only a maintainer can clear: check",
+        "at": "2026-10-26T10:38:42Z",
+        "url": "https://github.com/mlflow/mlflow/pull/27140/checks"
+      }
+    ]
+  },
+  {
+    "repo": "JanDeDobbeleer/oh-my-posh",
+    "number": 7935,
+    "title": "fix(winget): parse tables without a Source column and with wide characters",
+    "url": "https://github.com/JanDeDobbeleer/oh-my-posh/pull/7935",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-26T11:38:40Z",
+    "lastActivity": "2026-10-26T11:53:25Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-26T11:38:40Z",
+        "url": "https://github.com/JanDeDobbeleer/oh-my-posh/pull/7935"
+      }
+    ],
+    "notes": [
+      {
+        "code": "comment",
+        "text": "@JanDeDobbeleer commented 19h ago: “[redacted] @denelon”",
+        "at": "2026-10-26T11:53:25Z",
+        "url": "https://github.com/JanDeDobbeleer/oh-my-posh/pull/7935#issuecomment-6415348002"
+      }
+    ]
+  },
+  {
+    "repo": "redis/redis-py",
+    "number": 4507,
+    "title": "Read JSON files as bytes in JSON.set_file",
+    "url": "https://github.com/redis/redis-py/pull/4507",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-26T11:54:11Z",
+    "lastActivity": "2026-10-26T11:54:11Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "4 workflows wait for a maintainer to approve their runs: CI, spellcheck, Docs CI (+1 more)",
+        "at": "2026-10-26T11:54:11Z",
+        "url": "https://github.com/redis/redis-py/pull/4507/checks"
+      },
+      {
+        "code": "awaiting_rereview",
+        "text": "you pushed after @petyaslavova requested changes; waiting for re-review (review not re-requested from @petyaslavova)",
+        "at": "2026-10-26T11:54:11Z",
+        "url": "https://github.com/redis/redis-py/pull/4507"
+      }
+    ],
+    "notes": [
+      {
+        "code": "bot_threads",
+        "text": "1 unresolved thread from bots",
+        "url": "https://github.com/redis/redis-py/pull/4507/files"
+      }
+    ]
+  },
+  {
+    "repo": "eosphoros-ai/DB-GPT",
+    "number": 3316,
+    "title": "fix(agent): load zip plugins with exec_module() on Python 3.15",
+    "url": "https://github.com/eosphoros-ai/DB-GPT/pull/3316",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-26T14:04:40Z",
+    "lastActivity": "2026-10-26T14:04:40Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: Python Code Quality Checks",
+        "at": "2026-10-26T12:29:48Z",
+        "url": "https://github.com/eosphoros-ai/DB-GPT/pull/3316/checks"
+      },
+      {
+        "code": "approved",
+        "text": "approved by @chen-alan 16h ago; more approvals required",
+        "at": "2026-10-26T14:04:40Z",
+        "url": "https://github.com/eosphoros-ai/DB-GPT/pull/3316"
+      }
+    ],
+    "notes": [
+      {
+        "code": "comment",
+        "text": "@chen-alan approved 16h ago: “[redacted]”",
+        "at": "2026-10-26T14:04:40Z",
+        "url": "https://github.com/eosphoros-ai/DB-GPT/pull/3316#pullrequestreview-5653214079"
+      },
+      {
+        "code": "bot_threads",
+        "text": "2 unresolved threads from bots",
+        "url": "https://github.com/eosphoros-ai/DB-GPT/pull/3316/files"
+      }
+    ]
+  },
+  {
+    "repo": "ManimCommunity/manim",
+    "number": 5103,
+    "title": "Read and write manim.cfg as UTF-8",
+    "url": "https://github.com/ManimCommunity/manim/pull/5103",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-26T14:40:18Z",
+    "lastActivity": "2026-10-26T14:40:18Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-26T14:40:18Z",
+        "url": "https://github.com/ManimCommunity/manim/pull/5103"
+      }
+    ]
+  },
+  {
+    "repo": "reflex-dev/reflex",
+    "number": 7659,
+    "title": "Read and write AGENTS.md, CLAUDE.md and .gitignore as UTF-8 in reflex init",
+    "url": "https://github.com/reflex-dev/reflex/pull/7659",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-26T15:39:18Z",
+    "lastActivity": "2026-10-26T15:39:18Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "11 workflows wait for a maintainer to approve their runs: pre-commit, performance-tests, CodeQL Advanced (+8 more)",
+        "at": "2026-10-26T15:39:18Z",
+        "url": "https://github.com/reflex-dev/reflex/pull/7659/checks"
+      }
+    ],
+    "notes": [
+      {
+        "code": "bot_threads",
+        "text": "2 unresolved threads from bots",
+        "url": "https://github.com/reflex-dev/reflex/pull/7659/files"
+      }
+    ]
+  },
+  {
+    "repo": "skylot/jadx",
+    "number": 3037,
+    "title": "fix(core): use Locale.ROOT for case conversion of names",
+    "url": "https://github.com/skylot/jadx/pull/3037",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-27T01:44:29Z",
+    "lastActivity": "2026-10-27T01:44:29Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "1 workflow waits for a maintainer to approve its run: Build Test",
+        "at": "2026-10-27T01:44:29Z",
+        "url": "https://github.com/skylot/jadx/pull/3037/checks"
+      }
+    ]
+  },
+  {
+    "repo": "chinabugotech/hutool",
+    "number": 4348,
+    "title": "修复默认Locale为土耳其语时忽略大小写的Map及Month/Week/ColorUtil名称解析失效的问题",
+    "url": "https://github.com/chinabugotech/hutool/pull/4348",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-27T02:51:59Z",
+    "lastActivity": "2026-10-27T02:51:59Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-10-27T02:51:59Z",
+        "url": "https://github.com/chinabugotech/hutool/pull/4348"
+      }
+    ]
+  },
+  {
+    "repo": "jupyterlab/jupyterlab",
+    "number": 20160,
+    "title": "Do not add default metadata to cells when opening the Property Inspector",
+    "url": "https://github.com/jupyterlab/jupyterlab/pull/20160",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-27T02:55:52Z",
+    "lastActivity": "2026-10-27T02:55:52Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "11 workflows wait for a maintainer to approve their runs: Windows Tests, Check internationalization changes, UI Tests (+8 more)",
+        "at": "2026-10-27T02:55:52Z",
+        "url": "https://github.com/jupyterlab/jupyterlab/pull/20160/checks"
+      }
+    ],
+    "notes": [
+      {
+        "code": "bot_threads",
+        "text": "1 unresolved thread from bots",
+        "url": "https://github.com/jupyterlab/jupyterlab/pull/20160/files"
+      }
+    ]
+  },
+  {
+    "repo": "D4Vinci/Scrapling",
+    "number": 537,
+    "title": "fix(spiders): write the spider log file as UTF-8",
+    "url": "https://github.com/D4Vinci/Scrapling/pull/537",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "them",
+    "since": "2026-10-27T06:52:27Z",
+    "lastActivity": "2026-10-27T06:52:27Z",
+    "reasons": [
+      {
+        "code": "awaiting_approval",
+        "text": "2 workflows wait for a maintainer to approve their runs: Code Quality, Tests",
+        "at": "2026-10-27T06:52:27Z",
+        "url": "https://github.com/D4Vinci/Scrapling/pull/537/checks"
+      }
+    ]
+  },
+  {
+    "repo": "danielrosehill/Awesome-Whisper-Apps",
+    "number": 13,
+    "title": "Add WhisperPress (Windows, offline push-to-talk dictation)",
+    "url": "https://github.com/danielrosehill/Awesome-Whisper-Apps/pull/13",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "stale",
+    "since": "2026-06-11T17:52:44Z",
+    "lastActivity": "2026-06-11T17:52:44Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-06-11T17:52:44Z",
+        "url": "https://github.com/danielrosehill/Awesome-Whisper-Apps/pull/13"
+      },
+      {
+        "code": "stale",
+        "text": "no activity for 4mo",
+        "at": "2026-06-11T17:52:44Z"
+      }
+    ],
+    "nudge": "leave a short, friendly ping or ask in the project's chat who reviews this area"
+  },
+  {
+    "repo": "pluja/awesome-privacy",
+    "number": 865,
+    "title": "Add WhisperPress to Speech to Text > Apps and services",
+    "url": "https://github.com/pluja/awesome-privacy/pull/865",
+    "author": "b84330808",
+    "draft": false,
+    "turn": "stale",
+    "since": "2026-06-13T13:50:30Z",
+    "lastActivity": "2026-06-13T13:50:30Z",
+    "reasons": [
+      {
+        "code": "awaiting_review",
+        "text": "waiting for a first review",
+        "at": "2026-06-13T13:50:30Z",
+        "url": "https://github.com/pluja/awesome-privacy/pull/865"
+      },
+      {
+        "code": "stale",
+        "text": "no activity for 4mo",
+        "at": "2026-06-13T13:50:30Z"
+      }
+    ],
+    "nudge": "leave a short, friendly ping or ask in the project's chat who reviews this area"
+  }
+]

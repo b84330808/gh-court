@@ -1,0 +1,1 @@
+{"response":{"data":{"rateLimit":{"cost":1,"remaining":4977,"resetAt":"2026-10-27T07:52:07Z"},"search":{"issueCount":0,"nodes":[],"pageInfo":{"endCursor":null,"hasNextPage":false}},"viewer":{"login":"b84330808"}}},"variables":{"after":null,"q":"is:pr is:open archived:false  -author:@me user-review-requested:@me"}}

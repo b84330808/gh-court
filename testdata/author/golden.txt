@@ -1,0 +1,332 @@
+Your turn · 7
+    7d  mui/mui-x#23941                             [data grid] Close the singleSelect editor menu on a backdrop click or Escape
+        - CI failed on your head commit: deploy/netlify
+        · a failed check only a maintainer can clear: check PR labels / Check PR type labels
+        https://github.com/mui/mui-x/pull/23941
+    6d  jupyter/nbconvert#2333                      Keep cells IPython cannot tokenize when exporting to a script
+        - CI failed on your head commit: generate-docs (3.14)
+        · a failed check only a maintainer can clear: enforce-label
+        · some recent pull requests by others fail this too, so it may be flaky: generate-docs (3.14) (1 of 8)
+        https://github.com/jupyter/nbconvert/pull/2333
+    6d  microsoft/rushstack#6162                    [rush-serve-plugin] Forward the auto-picked port to the port parameter
+        - CI failed on your head commit: Node.js v26 (ubuntu-latest), Node.js v26 (windows-latest)
+        · review requested from @iclanton, @octogonz, @apostolisms (+3 more) 6d ago
+        · also failing on main, so probably not your change: Node.js v24 (windows-latest)
+        · some recent pull requests by others fail this too, so it may be flaky: Node.js v26 (windows-latest) (1 of 7)
+        https://github.com/microsoft/rushstack/pull/6162
+    4d  gorakhargosh/watchdog#1341                  fix(core): hold the observer lock while starting emitters
+        - merge conflict with master
+        · 2 workflows wait for a maintainer to approve their runs: Tests, Build & Publish
+        https://github.com/gorakhargosh/watchdog/pull/1341
+    3d  redis-rs/redis-rs#2514                      Don't cache replies of commands that read several keys
+        - merge conflict with main
+        · 1 workflow waits for a maintainer to approve its run: Rust
+        · @nihohit commented 2d ago: “[redacted]”
+        https://github.com/redis-rs/redis-rs/pull/2514
+    2d  python-poetry/poetry#11159                  fix: resolve relative paths in `poetry self add` against the working directory
+        - CI failed on your head commit: Ubuntu (Python 3.15) / pytest, Windows (Python 3.15) / pytest, macOS aarch64 (Python 3.15) / pytest, Status
+        · branch is behind main; protection requires it to be up to date
+        https://github.com/python-poetry/poetry/pull/11159
+   17h  plotly/plotly.js#8146                       fix(pie): clear stale leader lines when outside labels move back inside
+        - CI failed on your head commit: noci-jasmine
+        · review requested from @KoolADE85 9h ago
+        · some recent pull requests by others fail this too, so it may be flaky: noci-jasmine (2 of 5)
+        · @KoolADE85 commented 9h ago: “Thanks.”
+        https://github.com/plotly/plotly.js/pull/8146
+
+Their turn · 81
+   11d  rany2/edge-tts#506                          fix: keep split_text_by_byte_length chunks within byte_length when no whitespace is found
+        - 2 workflows wait for a maintainer to approve their runs: CodeQL, Check code quality
+        https://github.com/rany2/edge-tts/pull/506
+   10d  VOICEVOX/voicevox#3158                      fix: テンポ欄などへの入力中にキー操作でノートが動いたり消えたりしないようにする
+        - 2 workflows wait for a maintainer to approve their runs: Test, Build Preview Pages
+        https://github.com/VOICEVOX/voicevox/pull/3158
+   10d  VOICEVOX/voicevox_engine#1896               docs: エディタから起動したエンジンには127.0.0.1でアクセスするよう案内する
+        - you replied last, 10d ago
+        https://github.com/VOICEVOX/voicevox_engine/pull/1896
+   10d  ancs21/awesome-openai-whisper#18            Add WhisperPress
+        - waiting for a first review
+        https://github.com/ancs21/awesome-openai-whisper/pull/18
+    8d  VOICEVOX/voicevox#3168                      ci: シェルスクリプトをShellCheckで検査する
+        - waiting for a first review
+        https://github.com/VOICEVOX/voicevox/pull/3168
+    8d  hasscc/hass-edge-tts#83                     Support yue for Cantonese
+        - 1 workflow waits for a maintainer to approve its run: Validate
+        https://github.com/hasscc/hass-edge-tts/pull/83
+    8d  pylint-dev/astroid#3410                     Build the __class_getitem__ of PEP 695 classes without transforms
+        - 6 workflows wait for a maintainer to approve their runs: CodSpeed (simulation), CI, CodSpeed (walltime) (+3 more)
+        · GitHub has not computed mergeability yet
+        https://github.com/pylint-dev/astroid/pull/3410
+    7d  prettier/prettier#20324                     Prevent Markdown list markers from forming a thematic break
+        - 5 workflows wait for a maintainer to approve their runs: Check Sizes, Dev, Lint (+2 more)
+        https://github.com/prettier/prettier/pull/20324
+    7d  pylint-dev/pylint#11691                     Don't check names of attributes assigned in another module
+        - 6 workflows wait for a maintainer to approve their runs: Primer / Run, Checks, Primer (+3 more)
+        · GitHub has not computed mergeability yet
+        https://github.com/pylint-dev/pylint/pull/11691
+    7d  pylint-dev/pylint#11692                     Allow overriding ParamSpec variadics in arguments-differ
+        - 6 workflows wait for a maintainer to approve their runs: CodeQL, changelog, Primer / Run (+3 more)
+        · GitHub has not computed mergeability yet
+        https://github.com/pylint-dev/pylint/pull/11692
+    7d  prettier/prettier#20331                     Keep template literal lines of MDX JSX at the container's indentation
+        - 5 workflows wait for a maintainer to approve their runs: Lint, Check Sizes, Dev (+2 more)
+        https://github.com/prettier/prettier/pull/20331
+    7d  VOICEVOX/voicevox#3170                      fix: ボタンをマウスで押したあともSpaceキーで再生できるようにする
+        - review requested from @sevenc-nanashi 7d ago
+        https://github.com/VOICEVOX/voicevox/pull/3170
+    7d  vuejs/core#15943                            fix(hmr): update comment nodes on hot reload
+        - 3 workflows wait for a maintainer to approve their runs: autofix.ci, size data, ci
+        https://github.com/vuejs/core/pull/15943
+    7d  mermaid-js/mermaid#8497                     fix: copy only the edges of each node when extracting clusters
+        - waiting for a first review
+        https://github.com/mermaid-js/mermaid/pull/8497
+    7d  ant-design/ant-design#59611                 fix(Table): apply defaultSortOrder on grouping columns
+        - waiting for a first review
+        https://github.com/ant-design/ant-design/pull/59611
+    7d  excalidraw/excalidraw#12368                 fix(editor): ignore clipped frame children when zooming to fit
+        - 4 workflows wait for a maintainer to approve their runs: Lint, Test Coverage PR, Cancel previous runs (+1 more)
+        https://github.com/excalidraw/excalidraw/pull/12368
+    6d  mermaid-js/mermaid#8498                     fix: require a state id after "as" in state diagrams
+        - a failed check only a maintainer can clear: argos (1 changed — waiting for your decision)
+        https://github.com/mermaid-js/mermaid/pull/8498
+    6d  react-component/image#535                   fix: don't apply the thumbnail srcSet to the preview of preview.src
+        - 3 workflows wait for a maintainer to approve their runs: Surge Preview, React Doctor, ✅ test
+        - a failed check only a maintainer can clear: Vercel – image (Authorization required to deploy.)
+        https://github.com/react-component/image/pull/535
+    6d  sveltejs/kit#17499                          fix(enhanced-img): compute the missing dimension at runtime for imported images
+        - waiting for a first review
+        https://github.com/sveltejs/kit/pull/17499
+    6d  vuejs/vitepress#5548                        fix: resolve a symlinked srcDir to its real path
+        - 2 workflows wait for a maintainer to approve their runs: Test, CR
+        https://github.com/vuejs/vitepress/pull/5548
+    6d  vue-macros/vue-macros#1026                  fix(define-props-refs): transform code read by Vite HMR
+        - waiting for a first review
+        https://github.com/vue-macros/vue-macros/pull/1026
+    6d  apache/echarts#21799                        fix(toolbox): respect series.stack when switching magicType stack. close #15571
+        - 1 workflow waits for a maintainer to approve its run: Node CI
+        https://github.com/apache/echarts/pull/21799
+    6d  tqdm/tqdm#1889                              bar_format: show unknown rates as `?` with format specs
+        - 2 workflows wait for a maintainer to approve their runs: Check, Test
+        - review requested from @casperdcl 6d ago
+        · also failing on recent pull requests by others, so probably not your change: pre-commit.ci - pr (4 of 8)
+        https://github.com/tqdm/tqdm/pull/1889
+    6d  kobaltedev/kobalte#750                      fix(utils): stop scrollIntoViewport from looping when the root hides overflow
+        - 3 workflows wait for a maintainer to approve their runs: Format & Lint Files, Build, Test
+        https://github.com/kobaltedev/kobalte/pull/750
+    6d  jazzband/django-model-utils#668             Fix migrations of models with a SplitField
+        - 1 workflow waits for a maintainer to approve its run: Test
+        https://github.com/jazzband/django-model-utils/pull/668
+    6d  socketio/socket.io#5579                     fix(eio): do not access the uWS request after an async middleware
+        - 9 workflows wait for a maintainer to approve their runs: CI (socket.io-client)), CI (@socket.io/postgres-emitter), CI (socket.io-adapter) (+6 more)
+        https://github.com/socketio/socket.io/pull/5579
+    6d  jestjs/jest#16513                           fix(jest-circus, jest-jasmine2): apply testTimeout from a project config
+        - waiting for a first review
+        https://github.com/jestjs/jest/pull/16513
+    6d  flatpickr/flatpickr#3145                    Don't rewrite the mobile input while it's being typed into
+        - waiting for a first review
+        https://github.com/flatpickr/flatpickr/pull/3145
+    6d  dorianbrown/rank_bm25#60                    Add score regression tests for all three BM25 variants
+        - waiting for a first review
+        https://github.com/dorianbrown/rank_bm25/pull/60
+    5d  dorianbrown/rank_bm25#61                    Run the test workflow on pull requests and Python 3.13/3.14
+        - 1 workflow waits for a maintainer to approve its run: pytest
+        https://github.com/dorianbrown/rank_bm25/pull/61
+    5d  testing-library/user-event#1336             fix(selectOptions): allow deselecting options in a multiselectable listbox
+        - 1 workflow waits for a maintainer to approve its run: CI
+        https://github.com/testing-library/user-event/pull/1336
+    5d  tornadoweb/tornado#3830                     wsgi: Discard the response body for HEAD requests
+        - waiting for a first review
+        https://github.com/tornadoweb/tornado/pull/3830
+    5d  usebruno/bruno#9591                         fix(codegen): strip comments from JSON body in generated code
+        - 3 workflows wait for a maintainer to approve their runs: Windows Tests, Linux Tests, Lint Checks
+        - review requested from @helloanoop, @bijin-bruno, @lohit-bruno (+1 more) 6d ago
+        · GitHub has not computed mergeability yet
+        https://github.com/usebruno/bruno/pull/9591
+    5d  toeverything/AFFiNE#15726                   fix(editor): keep numbered list start number in markdown and html export
+        - 2 workflows wait for a maintainer to approve their runs: PR Title Lint, Build & Test
+        https://github.com/toeverything/AFFiNE/pull/15726
+    5d  PyGithub/PyGithub#3599                      Derive `Commit.repository` from the commit url
+        - 3 workflows wait for a maintainer to approve their runs: CI, Lint, CodeQL Advanced
+        https://github.com/PyGithub/PyGithub/pull/3599
+    5d  clauderic/dnd-kit#2158                      fix(dom): hide placeholder descendants that set visibility: visible
+        - 4 workflows wait for a maintainer to approve their runs: Playwright, Chromatic, Tests (+1 more)
+        https://github.com/clauderic/dnd-kit/pull/2158
+    5d  Unitech/pm2#6174                            fix: connect() crashes when called right after disconnect()
+        - 1 workflow waits for a maintainer to approve its run: Node.js CI
+        https://github.com/Unitech/pm2/pull/6174
+    5d  textlint-ja/textlint-rule-ja-no-successi…  feat: 記号や空白の連続を許可するオプションを追加
+        - 1 workflow waits for a maintainer to approve its run: test
+        https://github.com/textlint-ja/textlint-rule-ja-no-successive-word/pull/36
+    5d  django-oscar/django-oscar#4648              Fix AJAX basket update crashing when the basket cookie has expired
+        - 1 workflow waits for a maintainer to approve its run: Tests
+        https://github.com/django-oscar/django-oscar/pull/4648
+    5d  TypeStrong/typedoc#3143                     Keep abstract on constructor types converted from a type
+        - waiting for a first review
+        https://github.com/TypeStrong/typedoc/pull/3143
+    5d  gitui-org/gitui#3042                        Show the "No newline at end of file" marker as a plain diff line
+        - 1 workflow waits for a maintainer to approve its run: CI
+        https://github.com/gitui-org/gitui/pull/3042
+    5d  surrealdb/surrealdb#7616                    Read SURREAL_SURREALISM_MAX_POOL_SIZE into CommonConfig
+        - 5 workflows wait for a maintainer to approve their runs: Language bench (PR), Downstream compatibility, Labeler (+2 more)
+        https://github.com/surrealdb/surrealdb/pull/7616
+    5d  oxc-project/oxc#28094                       fix(linter/jsx-a11y/autocomplete-valid): accept section, shipping/billing and contact-type tokens
+        - 6 workflows wait for a maintainer to approve their runs: Semgrep, CI, autofix.ci (+3 more)
+        - review requested from @camc314 5d ago
+        · GitHub has not computed mergeability yet
+        https://github.com/oxc-project/oxc/pull/28094
+    4d  react-grid-layout/react-grid-layout#2314    fix: stop edge auto-scroll when the dropping placeholder unmounts (#2312)
+        - 3 workflows wait for a maintainer to approve their runs: Lint, CI, Dependency Audit
+        https://github.com/react-grid-layout/react-grid-layout/pull/2314
+    4d  parcel-bundler/lightningcss#1380            fix: reject min-/max- prefixed media features in a boolean context
+        - 2 workflows wait for a maintainer to approve their runs: codspeed, test
+        · branch is behind master; protection requires it to be up to date
+        https://github.com/parcel-bundler/lightningcss/pull/1380
+    4d  simonw/datasette#3011                       Detect FTS tables with unquoted or single-quoted content=
+        - 6 workflows wait for a maintainer to approve their runs: Test in Pyodide with shot-scraper, Check spelling in documentation, Check JavaScript for conformance with Prettier (+3 more)
+        https://github.com/simonw/datasette/pull/3011
+    4d  sequelize/sequelize#18580                   fix(sqlite3): keep foreign keys that reference a renamed table
+        - review requested from @ephys, @WikiRik 4d ago
+        · 1 unresolved thread from bots
+        · branch is behind main; protection requires it to be up to date
+        https://github.com/sequelize/sequelize/pull/18580
+    4d  knex/knex#6550                              fix: #6065, reject transaction when handler rejects with undefined
+        - 6 workflows wait for a maintainer to approve their runs: Linting and Types, Ensure labels, CodeQL (+3 more)
+        https://github.com/knex/knex/pull/6550
+    4d  juhaku/utoipa#1649                          Always serialize the description of a response
+        - waiting for a first review
+        https://github.com/juhaku/utoipa/pull/1649
+    4d  ouch-org/ouch#1106                          fix: detect legacy lz4 frames from their signature
+        - waiting for maintainers since your last push 4d ago
+        · approved by @mvastola, who has no write access
+        · @mvastola approved 2d ago: “Thanks.”
+        https://github.com/ouch-org/ouch/pull/1106
+    4d  sequelize/sequelize#18584                   fix(core): respect the scope of the included model in separate includes
+        - review requested from @sdepold, @SippieCup 4d ago
+        · branch is behind main; protection requires it to be up to date
+        https://github.com/sequelize/sequelize/pull/18584
+    4d  piccolo-orm/piccolo#1445                    Return Decimal values from Array(Numeric()) columns in SQLite
+        - 1 workflow waits for a maintainer to approve its run: Test Suite
+        https://github.com/piccolo-orm/piccolo/pull/1445
+    4d  rkyv/rkyv#713                               Don't warn about deprecated fields when deriving `Archive`
+        - 1 workflow waits for a maintainer to approve its run: CI
+        https://github.com/rkyv/rkyv/pull/713
+    4d  quasarframework/quasar#18578                fix(QSlider/QRange): keep the values aligned to a fractional min
+        - 1 workflow waits for a maintainer to approve its run: ui tests
+        · 1 unresolved thread from bots
+        https://github.com/quasarframework/quasar/pull/18578
+    4d  lmcinnes/umap#1319                          Raise a clear error when per-feature metric parameters don't match the data
+        - waiting for a first review
+        https://github.com/lmcinnes/umap/pull/1319
+    3d  lsd-rs/lsd#1248                             windows: list files whose full path is longer than MAX_PATH
+        - 1 workflow waits for a maintainer to approve its run: CICD
+        - review requested from @zwpaper 3d ago
+        https://github.com/lsd-rs/lsd/pull/1248
+    3d  PyCQA/isort#2744                            Expand known_* directory entries ending in "/" on Windows
+        - 1 workflow waits for a maintainer to approve its run: CI
+        https://github.com/PyCQA/isort/pull/2744
+    3d  wanasit/chrono#682                          fix(zh): parse three-character Chinese numeral days in zh.hant dates
+        - 1 workflow waits for a maintainer to approve its run: Run test and coverage
+        https://github.com/wanasit/chrono/pull/682
+    2d  rust-ndarray/ndarray#1625                   fix: partition panics on lanes with a negative stride
+        - 1 workflow waits for a maintainer to approve its run: Continuous integration
+        https://github.com/rust-ndarray/ndarray/pull/1625
+    2d  pylint-dev/astroid#3409                     Include fields of an init=False dataclass base in a subclass's __init__
+        - 6 workflows wait for a maintainer to approve their runs: CodeQL, CodSpeed (walltime), CodSpeed (simulation) (+3 more)
+        · GitHub has not computed mergeability yet
+        https://github.com/pylint-dev/astroid/pull/3409
+    2d  langgenius/dify#44175                       fix(i18n/zh-Hant): use Taiwan terminology and fix Simplified strings
+        - 5 workflows wait for a maintainer to approve their runs: Image optimization, autofix.ci, KnowledgeFS CI (+2 more)
+        - review requested from @iamjoel 11d ago
+        · 2 unresolved threads from bots
+        · GitHub has not computed mergeability yet
+        https://github.com/langgenius/dify/pull/44175
+    2d  jsx-eslint/eslint-plugin-react#4060         [Fix] `static-property-placement`: don't report a typed `context` field
+        - waiting for a first review
+        · GitHub has not computed mergeability yet
+        https://github.com/jsx-eslint/eslint-plugin-react/pull/4060
+    2d  dagster-io/dagster#34334                    [core] Fix DbIOManager for multi-partitioned assets with a dynamic dimension
+        - you replied last, 2d ago
+        · also failing on recent pull requests by others, so probably not your change: buildkite/unit-tests (8 of 8)
+        https://github.com/dagster-io/dagster/pull/34334
+    2d  vega/vega-lite#9960                         fix: use fillOpacity for conditional and expression axis labelOpacity
+        - you replied last, 2d ago
+        · also failing on recent pull requests by others, so probably not your change: Format, Schema, and Examples (3 of 6)
+        https://github.com/vega/vega-lite/pull/9960
+    2d  sequelize/sequelize#18578                   fix(core): keep explicit timestamps in Model.upsert when column names differ
+        - review requested from @ephys, @WikiRik 4d ago
+        · 1 unresolved thread from bots
+        · branch is behind main; protection requires it to be up to date
+        https://github.com/sequelize/sequelize/pull/18578
+    2d  typeorm/typeorm#12996                       fix: await async entity listeners declared in embeddeds
+        - approved by @gioboa, @Cprakhar 2d ago, not merged yet
+        - review requested from @smith-xyz, @alumni 2d ago
+        · @gioboa approved 2d ago: “Thanks. @b84330808”
+        · branch is behind master; protection requires it to be up to date
+        https://github.com/typeorm/typeorm/pull/12996
+   47h  bombshell-dev/clack#627                     fix(prompts): handle trailing backslash in path prompt directory mode
+        - 2 workflows wait for a maintainer to approve their runs: CI, Preview
+        · also failing on recent pull requests by others, so probably not your change: detect / detect (3 of 3)
+        https://github.com/bombshell-dev/clack/pull/627
+   42h  charmbracelet/glamour#651                   fix(ansi): normalize CRLF in code blocks rendered without chroma
+        - 3 workflows wait for a maintainer to approve their runs: coverage, lint, build
+        https://github.com/charmbracelet/glamour/pull/651
+   38h  tradingview/lightweight-charts#2175         fix: format default tick marks in UTC so DST gaps don't shift labels
+        - 2 workflows wait for a maintainer to approve their runs: GitHub Actions Security Analysis with zizmor 🌈, size
+        https://github.com/tradingview/lightweight-charts/pull/2175
+   24h  jasmine/jasmine#2122                        Match bigints with jasmine.any(BigInt) and toBeInstanceOf(BigInt)
+        - 1 workflow waits for a maintainer to approve its run: Test in latest available Safari
+        https://github.com/jasmine/jasmine/pull/2122
+   22h  locustio/locust#3577                        Save a locustfile downloaded from a URL byte for byte
+        - waiting for a first review
+        https://github.com/locustio/locust/pull/3577
+   20h  mlflow/mlflow#27140                         Fix post-import hooks on Python 3.15 by implementing `exec_module`
+        - 13 workflows wait for a maintainer to approve their runs: Protect, MLflow tests, docs (+10 more)
+        - a failed check only a maintainer can clear: check
+        https://github.com/mlflow/mlflow/pull/27140
+   19h  JanDeDobbeleer/oh-my-posh#7935              fix(winget): parse tables without a Source column and with wide characters
+        - waiting for a first review
+        · @JanDeDobbeleer commented 19h ago: “[redacted] @denelon”
+        https://github.com/JanDeDobbeleer/oh-my-posh/pull/7935
+   19h  redis/redis-py#4507                         Read JSON files as bytes in JSON.set_file
+        - 4 workflows wait for a maintainer to approve their runs: CI, spellcheck, Docs CI (+1 more)
+        - you pushed after @petyaslavova requested changes; waiting for re-review (review not re-requested from @petyaslavova)
+        · 1 unresolved thread from bots
+        https://github.com/redis/redis-py/pull/4507
+   16h  eosphoros-ai/DB-GPT#3316                    fix(agent): load zip plugins with exec_module() on Python 3.15
+        - 1 workflow waits for a maintainer to approve its run: Python Code Quality Checks
+        - approved by @chen-alan 16h ago; more approvals required
+        · @chen-alan approved 16h ago: “[redacted]”
+        · 2 unresolved threads from bots
+        https://github.com/eosphoros-ai/DB-GPT/pull/3316
+   16h  ManimCommunity/manim#5103                   Read and write manim.cfg as UTF-8
+        - waiting for a first review
+        https://github.com/ManimCommunity/manim/pull/5103
+   15h  reflex-dev/reflex#7659                      Read and write AGENTS.md, CLAUDE.md and .gitignore as UTF-8 in reflex init
+        - 11 workflows wait for a maintainer to approve their runs: pre-commit, performance-tests, CodeQL Advanced (+8 more)
+        · 2 unresolved threads from bots
+        https://github.com/reflex-dev/reflex/pull/7659
+    5h  skylot/jadx#3037                            fix(core): use Locale.ROOT for case conversion of names
+        - 1 workflow waits for a maintainer to approve its run: Build Test
+        https://github.com/skylot/jadx/pull/3037
+    4h  chinabugotech/hutool#4348                   修复默认Locale为土耳其语时忽略大小写的Map及Month/Week/ColorUtil名称解析失效的问题
+        - waiting for a first review
+        https://github.com/chinabugotech/hutool/pull/4348
+    3h  jupyterlab/jupyterlab#20160                 Do not add default metadata to cells when opening the Property Inspector
+        - 11 workflows wait for a maintainer to approve their runs: Windows Tests, Check internationalization changes, UI Tests (+8 more)
+        · 1 unresolved thread from bots
+        https://github.com/jupyterlab/jupyterlab/pull/20160
+    2m  D4Vinci/Scrapling#537                       fix(spiders): write the spider log file as UTF-8
+        - 2 workflows wait for a maintainer to approve their runs: Code Quality, Tests
+        https://github.com/D4Vinci/Scrapling/pull/537
+
+Stale (no activity for 14+ days, consider a nudge) · 2
+   4mo  danielrosehill/Awesome-Whisper-Apps#13      Add WhisperPress (Windows, offline push-to-talk dictation)
+        - waiting for a first review
+        - no activity for 4mo
+        nudge: leave a short, friendly ping or ask in the project's chat who reviews this area
+        https://github.com/danielrosehill/Awesome-Whisper-Apps/pull/13
+   4mo  pluja/awesome-privacy#865                   Add WhisperPress to Speech to Text > Apps and services
+        - waiting for a first review
+        - no activity for 4mo
+        nudge: leave a short, friendly ping or ask in the project's chat who reviews this area
+        https://github.com/pluja/awesome-privacy/pull/865
