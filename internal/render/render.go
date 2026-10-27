@@ -15,6 +15,11 @@ import (
 	"github.com/b84330808/gh-court/internal/court"
 )
 
+// width measures text the same way in every locale. go-runewidth's default
+// counts ambiguous characters such as "…" as two columns in CJK locales,
+// which most terminals do not do.
+var width = &runewidth.Condition{EastAsianWidth: false}
+
 // Group sorts results into turns, each oldest first (longest waiting at the
 // top).
 func Group(rs []court.Result) map[court.Turn][]court.Result {
@@ -75,7 +80,7 @@ func Table(w io.Writer, rs []court.Result, o Options) {
 	}
 	refW := 0
 	for _, r := range rs {
-		refW = max(refW, runewidth.StringWidth(r.Ref()))
+		refW = max(refW, width.StringWidth(r.Ref()))
 	}
 	refW = min(refW, 42)
 	first := true
@@ -91,8 +96,8 @@ func Table(w io.Writer, rs []court.Result, o Options) {
 		fmt.Fprintln(w, paint(bold+turnColor[t], fmt.Sprintf("%s · %d", heading(t, o.Mode, o.StaleDays), len(list))))
 		for _, r := range list {
 			age := court.Ago(o.Now.Sub(r.Since))
-			ref := runewidth.Truncate(r.Ref(), refW, "…")
-			pad := strings.Repeat(" ", refW-runewidth.StringWidth(ref))
+			ref := width.Truncate(r.Ref(), refW, "…")
+			pad := strings.Repeat(" ", refW-width.StringWidth(ref))
 			if o.Color {
 				ref = "\x1b]8;;" + r.URL + "\x1b\\" + ref + "\x1b]8;;\x1b\\"
 			}
@@ -105,7 +110,7 @@ func Table(w io.Writer, rs []court.Result, o Options) {
 				if room < 10 {
 					room = 10
 				}
-				title = runewidth.Truncate(title, room, "…")
+				title = width.Truncate(title, room, "…")
 			}
 			fmt.Fprintf(w, "  %4s  %s%s  %s\n", age, paint(bold, ref), pad, title)
 			for _, x := range r.Reasons {

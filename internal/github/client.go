@@ -114,6 +114,10 @@ func (c *Client) do(ctx context.Context, kind, query string, vars map[string]any
 				reset, _ := strconv.ParseInt(header.Get("X-Ratelimit-Reset"), 10, 64)
 				return &RateLimitError{Remaining: 0, ResetAt: time.Unix(reset, 0)}
 			}
+			limited := header.Get("Retry-After") != "" || strings.Contains(strings.ToLower(string(raw)), "rate limit")
+			if !limited {
+				return fmt.Errorf("GitHub refused the request (HTTP %d): %s", status, firstLine(raw))
+			}
 			if attempt == maxAttempts {
 				return fmt.Errorf("GitHub kept refusing the request (HTTP %d): %s", status, firstLine(raw))
 			}

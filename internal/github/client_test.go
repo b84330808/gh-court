@@ -125,6 +125,21 @@ func TestSecondaryRateLimitWaits(t *testing.T) {
 	}
 }
 
+type forbidden struct{}
+
+func (forbidden) Post(context.Context, []byte) (int, http.Header, []byte, error) {
+	return 403, http.Header{}, []byte(`{"message":"Resource protected by organization SAML enforcement."}`), nil
+}
+
+func TestForbiddenIsNotRetried(t *testing.T) {
+	var slept int
+	c := &Client{T: forbidden{}, Sleep: func(time.Duration) { slept++ }}
+	_, _, err := c.Search(context.Background(), "is:pr", 10)
+	if err == nil || !strings.Contains(err.Error(), "SAML") || slept != 0 {
+		t.Errorf("err = %v, slept %d times", err, slept)
+	}
+}
+
 func TestStopsBeforeRateLimitRunsOut(t *testing.T) {
 	c := &Client{T: &fakeTransport{}, MinRemaining: 5000}
 	_, err := c.PullRequests(context.Background(), ids(3))

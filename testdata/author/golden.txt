@@ -154,7 +154,7 @@ Their turn · 81
     5d  Unitech/pm2#6174                            fix: connect() crashes when called right after disconnect()
         - 1 workflow waits for a maintainer to approve its run: Node.js CI
         https://github.com/Unitech/pm2/pull/6174
-    5d  textlint-ja/textlint-rule-ja-no-successi…  feat: 記号や空白の連続を許可するオプションを追加
+    5d  textlint-ja/textlint-rule-ja-no-successiv…  feat: 記号や空白の連続を許可するオプションを追加
         - 1 workflow waits for a maintainer to approve its run: test
         https://github.com/textlint-ja/textlint-rule-ja-no-successive-word/pull/36
     5d  django-oscar/django-oscar#4648              Fix AJAX basket update crashing when the basket cookie has expired
